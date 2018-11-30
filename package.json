@@ -1,0 +1,25 @@
+{
+  "name": "@arys/logger",
+  "version": "1.0.0",
+  "description": "all the bits needed to run proper metrics and logging in arys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arysbot/logger.git"
+  },
+  "author": "torsina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arysbot/logger/issues"
+  },
+  "homepage": "https://github.com/arysbot/logger#readme",
+  "dependencies": {
+    "@arys/grpc-url": "^1.0.5",
+    "@arys/winston-transport-grpc": "^1.0.3",
+    "prom-client": "^11.2.0",
+    "winston": "^3.1.0"
+  }
+}
