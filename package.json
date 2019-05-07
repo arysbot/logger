@@ -1,6 +1,6 @@
 {
   "name": "@arys/logger",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "all the bits needed to run proper metrics and logging in arys",
   "main": "index.js",
   "scripts": {
